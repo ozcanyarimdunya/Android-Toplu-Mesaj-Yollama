@@ -59,7 +59,7 @@ public class MainActivity extends Activity {
                             * */
 
                             SmsManager smsManager = SmsManager.getDefault();
-                            smsManager.sendTextMessage("+905556667799", null, gonderilecekMesaj, null, null);
+                            smsManager.sendTextMessage(people.getTelefon(), null, gonderilecekMesaj, null, null);
                             Toast.makeText(MainActivity.this, "Tamamdır!", Toast.LENGTH_SHORT).show();
                         } else {
                             Toast.makeText(MainActivity.this, "En az bir kişi seçin ..!", Toast.LENGTH_SHORT).show();
