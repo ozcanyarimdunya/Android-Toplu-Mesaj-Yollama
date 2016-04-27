@@ -65,9 +65,9 @@ public class MainActivity extends Activity {
         People people;
         people = new People("Özcan", "Yarımdünya", "+905556667786", false);
         peopleList.add(people);
-        people = new People("Meriç", "Keskin", "+905556667787", true);
-        peopleList.add(people);
         people = new People("Hazal", "Kaya", "+905556667788", true);
+        peopleList.add(people);
+        people = new People("Meriç", "Keskin", "+905556667787", true);
         peopleList.add(people);
 
 
