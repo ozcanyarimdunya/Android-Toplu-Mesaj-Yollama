@@ -1,6 +1,6 @@
 
 ## Android Toplu Mesaj Yollama
-##### Bayramlarda toplu mesajlara son !!!
+#### Bayramlarda toplu mesajlara son !!!
 
 -----
 ListView'dan seçili olan herkese ismine özel mesaj atma uygulaması 
