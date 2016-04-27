@@ -47,6 +47,17 @@ public class MainActivity extends Activity {
                         People people = peopleList.get(i);
                         if (people.isSelected()) {
                             String gonderilecekMesaj = String.valueOf(text).replace("[ISIM]", people.getAd());
+
+                            /*
+                            * Bu bazı durumlarda hata verebilir
+                            * Güvenlik önlemi olsun diye böyle birşey yapmışlar
+                            * Ama eğer maxSdk ve targetSdk düşürülürse
+                            * herhangi bir sıkıntı vermeden çalışabilir
+                            * Veya build.gradle ile hiç uğraşmadan checkSelfPermission
+                            * fonksiyonu tanımlanıp kullanırsa bu sefer kullanıcıdan izin isteyip
+                            * bu şekilde toplu mesaj atacaktır
+                            * */
+
                             SmsManager smsManager = SmsManager.getDefault();
                             smsManager.sendTextMessage("+905556667799", null, gonderilecekMesaj, null, null);
                             Toast.makeText(MainActivity.this, "Tamamdır!", Toast.LENGTH_SHORT).show();
