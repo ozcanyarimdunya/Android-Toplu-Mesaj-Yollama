@@ -3,7 +3,7 @@
 #### Bayramlarda toplu mesajlara son !!!
 
 -----
-ListView'dan seçili olan herkese ismine özel mesaj atma uygulaması 
+ListView'dan seçili olan herkese ismine özel mesaj atma uygulaması
 
 Mesaj içinde ismini yazmak kişinin ismi yerine [ISIM] yazıp gönderdiğiniz takdir gönderdiğiniz mesaj herkese özel olarak gitmiş olacaktır.
 
